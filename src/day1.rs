@@ -64,7 +64,7 @@ fn get_string_value(line: &str) -> i32 {
 }
 
 fn main() {
-    let file = File::open("./src/input.txt").expect("File not found");
+    let file = File::open("./src/inputs/input_day1.txt").expect("File not found");
     let reader = BufReader::new(file);
     let mut result: i32 = 0;
 
