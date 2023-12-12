@@ -1,8 +1,7 @@
 use std::io::{BufRead,BufReader};
 use std::fs::File;
+use std::collections::HashMap;
 pub mod day2 {
-    use std::{collections::HashMap};
-
     use super::*;
 
     fn str_to_i32(str: &str) -> i32{
