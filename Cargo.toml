@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 
 [[bin]]
-name = "AOC"
+name = "aoc"
 path="src/day1.rs"
