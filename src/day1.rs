@@ -6,7 +6,6 @@ fn get_string_value(line: &str) -> i32 {
     let mut last: char = 't';
     let mut first_str: String = String::new();
     let mut last_str: String = String::new();
-
      let spelled_out_mapping: Vec<(&str, char)> = vec![
         ("one", '1'),
         ("two", '2'),
