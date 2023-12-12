@@ -9,4 +9,4 @@ edition = "2021"
 
 [[bin]]
 name = "aoc"
-path="src/day1.rs"
+path="src/main.rs"

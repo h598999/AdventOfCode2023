@@ -1,5 +1,7 @@
 use std::{fs::File, io::{BufRead, BufReader}, char};
 
+pub mod day1{
+    use super::*;
 fn get_string_value(line: &str) -> i32 {
     let _value:i32 = 0;
     let mut first: char = 't';
@@ -63,7 +65,7 @@ fn get_string_value(line: &str) -> i32 {
 
 }
 
-fn main() {
+pub fn solution() {
     let file = File::open("./src/inputs/input_day1.txt").expect("File not found");
     let reader = BufReader::new(file);
     let mut result: i32 = 0;
@@ -80,4 +82,5 @@ fn main() {
         }
     }
     println!("Parsed Number: {}", result);
+}
 }
