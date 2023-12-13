@@ -123,6 +123,4 @@ pub mod day2 {
         println!("Solution: {}", result);
         println!("Solution2: {}", result2);
     }
-
-
 }
